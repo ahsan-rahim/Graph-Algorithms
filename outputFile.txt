@@ -1,0 +1,175 @@
+
+A*: for graph number  1
+A 0
+H 4
+G 6
+F 10
+D 13
+E 15
+
+UCS  for graph number  1
+(0, 'A')
+(3, 'B')
+(4, 'H')
+(6, 'G')
+(7, 'C')
+(10, 'F')
+(13, 'D')
+(15, 'E')
+
+Best first Search  for graph number  1
+A 0
+H 4
+G 6
+F 10
+D 13
+E 15
+
+DFS  for graph number  1
+A 0
+B 3
+C 7
+D 15
+E 17
+
+
+
+IDS for graph number  1
+A 0
+B 3
+C 7
+H 8
+G 6
+D 15
+F 10
+E 17
+
+BFS  for graph number  1
+('A', 0)
+('B', 3)
+('H', 4)
+('C', 7)
+('G', 6)
+('D', 15)
+('F', 10)
+('E', 17)
+
+
+
+A*: for graph number  2
+A 0
+B 2
+D 4
+C 3
+F 4
+E 5
+I 8
+M 10
+
+UCS  for graph number  2
+(0, 'A')
+(2, 'B')
+(3, 'C')
+(4, 'D')
+(4, 'F')
+(5, 'E')
+(6, 'J')
+(7, 'G')
+(8, 'H')
+(8, 'I')
+(9, 'K')
+(10, 'L')
+(10, 'M')
+
+Best first Search  for graph number  2
+A 0
+B 2
+D 4
+H 8
+L 10
+
+DFS  for graph number  2
+A 0
+B 2
+D 4
+G 7
+H 8
+K 9
+L 10
+E 6
+C 8
+F 9
+I 14
+M 16
+
+
+
+IDS for graph number  2
+A 0
+B 2
+D 4
+E 6
+C 3
+F 4
+G 7
+H 8
+I 9
+J 6
+K 9
+L 10
+M 11
+
+BFS  for graph number  2
+('A', 0)
+('B', 2)
+('C', 3)
+('D', 4)
+('E', 6)
+('F', 4)
+('G', 7)
+('H', 8)
+('I', 9)
+('J', 6)
+('K', 9)
+('L', 10)
+('M', 11)
+
+
+
+A*: for graph number  3
+B 0
+A 8
+D 1
+A 3
+C 10
+
+UCS  for graph number  3
+(0, 'B')
+(1, 'D')
+(3, 'A')
+(10, 'C')
+
+Best First Search gets stuck in an infinite loop in 3rd graph 
+
+
+DFS  for graph number  3
+B 0
+A 8
+D 10
+C 15
+
+
+
+IDS for graph number  3
+B 0
+A 8
+D 10
+C 15
+
+BFS  for graph number  3
+('B', 0)
+('A', 8)
+('D', 1)
+('C', 15)
+
+
